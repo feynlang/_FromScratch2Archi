@@ -104,6 +104,7 @@
 ## 3.3 Chain Rule
 ## 3.4 Implicit Differentiation
 ## 3.5 Derivatives 2(Logarithmic, Inverse Trigonometric)
+### 한줄요약
 1. 로그함수의 미분: $f(x)=\log_ax$
     - $f'(x)=\frac{1}{x}\log_ae=\frac{1}{x\ln a}$ and $\frac{d}{dx}(\ln x)=\frac{1}{x}$
     - [증명] key: 미분계수 정의에 따른 식조작 시 오일러수의 정의(극한)을 활용
@@ -139,7 +140,7 @@
             - $\ln y=g(x)\ln(f(x))$
             - $\frac{y'}{y}=(g(x)\ln(f(x)))'\\ \Rightarrow y'=y\cdot(g(x)\ln(f(x)))'\\=f(x)^{g(x)}\cdot(g(x)\ln(f(x)))$
 ---
-1. 
+1. (3.5.1)
 ---
 1. 
 
@@ -149,6 +150,7 @@
 - [ref] Sec 3.5(a) Inverse Trigonometric Functions - (1/2),(2/2)
 
 ## 3.8 Exponential Growth & Decay
+### 
 1. natural growth/decay: 미분방정식 형태
     - (증가/감소량이 그 순간의 사이즈에 비례 proportional to their size)
     - $y(t)$: 시간 t에 따른 수량 y의 함수 => $\frac{dy}{dt}=ky$(k는 상수)
@@ -156,8 +158,8 @@
         - $y(t)=Ce^{kt}$ => $y'(t)=Cke^{kt}=ky(t)$
         - $y(0)=C\cdot 1$
 ---
-2. Population Growth
-3. Newton's Law of Cooling
+2. Population Growth: 인구 숫자 $P(t)$의 $\frac{dP}{dt}=kP$(k: 상대적 성장률)
+3. Newton's Law of Cooling: 어떤 object의 냉각률은 object와 surroudings의 온도차이에 비례($\frac{dT}{dt}=k(T-T_s)$, k는 상수) -> $T-T_s=y$로 치환하는 Trick 사용
 ### 키워드 흐름
 ### 막혔던 부분/질문
 - [ref] Sec 3.4(a) Exponential Growth and Decay - (1/2)

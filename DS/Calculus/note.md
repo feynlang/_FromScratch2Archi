@@ -91,19 +91,21 @@
 ## 2.1 Tangent(Velocity Problem)
 ## 2.2 Limit of a Function
 ## 2.3 Calculating Limits (limit laws)
-## 2.4 Continuity
-## 2.5 Limits at Infinity
-## 2.6 Derivative & Rates of change
-## 2.7 Derivative as a Function
+## 2.4 The Precise Definition of a Limit
+## 2.5 Continuity
+## 2.6 Limits at Infinity
+## 2.7 Derivative & Rates of change
+## 2.8 Derivative as a Function
 
 <br/>
 
 # Chapter 3. Limits and Derivatives
 ## 3.1 Derivatives 1(polynominals, exponential)
 ## 3.2 Product & Quotient Rules
-## 3.3 Chain Rule
-## 3.4 Implicit Differentiation
-## 3.5 Derivatives 2(Logarithmic, Inverse Trigonometric)
+## 3.3 Derivative of Trigonometric Functions
+## 3.4 Chain Rule
+## 3.5 Implicit Differentiation
+## 3.6 Derivatives 2(Logarithmic, Inverse Trigonometric)
 ### 한줄요약
 1. 로그함수의 미분: $f(x)=\log_ax$
     - $f'(x)=\frac{1}{x}\log_ae=\frac{1}{x\ln a}$ and $\frac{d}{dx}(\ln x)=\frac{1}{x}$
@@ -140,11 +142,28 @@
             - $\ln y=g(x)\ln(f(x))$
             - $\frac{y'}{y}=(g(x)\ln(f(x)))'\\ \Rightarrow y'=y\cdot(g(x)\ln(f(x)))'\\=f(x)^{g(x)}\cdot(g(x)\ln(f(x)))$
 ---
-1. (3.5.1)
----
-1. 
+ 5. inverse sine function: on $[-\frac{\pi}{2},\frac{\pi}{2}]$(sin함수가 one-to-one이 아니기 때문) => $f^{-1}=\sin^{-1}x=\arcsin x$ on $[-1,1]$
+    - 도함수: $\sin x$가 미분가능하므로 arcsin함수도 미분가능,
+        - $\frac{d}{dx}(\sin^{-1}x)=\frac{1}{\sqrt{(1-x^2)}}$ ($-1<x<1$)
+        - [증명] $y=\sin^{-1}x$, x에 대한 음함수미분 후 $\sin^2+\cos^2=1$ 식을 이용하여 $\frac{dy}{dx}$ 를 x에 대한 식으로 표현
+6. inverse cosine function: on $[0,\pi]$ (cos함수가 one-to-one이 아니기 때문) => $f^{-1}=\cos^{-1}x=\arccos x$ on $[-1,1]$
+    - 도함수: $\cos x$가 미분가능하므로 arccos함수도 미분가능,
+        - $\frac{d}{dx}(\cos^{-1}x)=-\frac{1}{\sqrt{(1-x^2)}}$ ($-1<x<1$)
+        - [증명] $y=\cos^{-1}x$, x에 대한 음함수미분 후 $\sin^2+\cos^2=1$ 식을 이용하여 $\frac{dy}{dx}$ 를 x에 대한 식으로 표현
+7. inverse tangent function: on $(-\frac{\pi}{2},\frac{\pi}{2})$ (tan함수가 one-to-one이 아니기 때문) => $f^{-1}=\tan^{-1}x=\arctan x$ on $(-\infty,\infty)$
+    - 도함수: $\tan x$가 미분가능하므로 arctan함수도 미분가능,
+        - $\frac{d}{dx}(\tan^{-1}x)=\frac{1}{1+x^2}$ ($-\infty<x<\infty$)
+        - [증명] $y=\tan^{-1}x$, x에 대한 음함수미분 후 $1+\tan^2=\sec^2$ 식을 이용하여 $\frac{dy}{dx}$ 를 x에 대한 식으로 표현
+8. csc, sec, cot의 inverse function & derivative
+    - $\csc y=x\ (y\in (0,\frac{\pi}{2}]\cup(\pi,\frac{3\pi}{2}])\Leftrightarrow y=\csc^{-1}x (|x|\ge 1)$
+        - $(\csc^{-1}x)'=-\frac{1}{x\sqrt{x^2-1}}$
+    - $\sec y=x\ (y\in [0,\frac{\pi}{2})\cup[\pi,\frac{3\pi}{2}))\Leftrightarrow y=\sec^{-1}x (|x|\ge 1)$
+        - $(\sec^{-1}x)'=\frac{1}{x\sqrt{x^2-1}}$
+    - $\cot y=x\ (y\in (0,\pi))\Leftrightarrow y=\cot^{-1}x (x\in\R)$
+        - $(\cot^{-1}x)'=-\frac{1}{1+x^2}$
 
 ### 키워드 흐름
+
 ### 막혔던 부분 
 - [ref] Sec 3.3(a) Derivatives of Logarithmic and Exponential - (1/2),(2/2)
 - [ref] Sec 3.5(a) Inverse Trigonometric Functions - (1/2),(2/2)
@@ -167,7 +186,13 @@
 ## 3.9 Related Rates
 ## 3.10 Linear Approximations
 ## 3.11 Hyperbolic Functions
-Sec 3.6(a) Hyperbolic Functions - (1/2),(2/2)
+### 한줄요약
+1. 3.6.1@@@
+2. 
+---
+### 키워드 흐름
+### 막혔던 부분/질문
+- [ref] Sec 3.6(a) Hyperbolic Functions - (1/2),(2/2)
 
 
 <br/>

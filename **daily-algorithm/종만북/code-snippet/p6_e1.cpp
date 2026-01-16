@@ -9,7 +9,8 @@ void choose(int n, int topick, vector<int>& picked){
             cout<<num<<" ";
         }
     }
-        for(int i=0; i<n; i++){
+    int smallest = picked.empty() ? 0 : picked.back()+1;
+    for(int i=smallest; i<n; i++){
         picked.push_back(i);
         choose(n-1, topick-1, picked);
     }

@@ -2,6 +2,7 @@
 # Chapter 1. Introduction
 ## 1.1 What Operating Systems Do
 ### 한줄 요약
+
 ### 키워드 흐름
 ### 막혔던 부분/질문
 
